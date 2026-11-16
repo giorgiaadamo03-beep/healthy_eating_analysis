@@ -4,7 +4,15 @@
 
 This project explores whether a healthy diet is economically accessible across countries, how affordability has changed over time, and which socioeconomic factors are associated with these differences. It combines **FAOSTAT** data on the *Cost and Affordability of a Healthy Diet* with socioeconomic indicators from the **World Bank**.
 
-The analysis covers **2017–2025**, subject to data availability, and combines exploratory data visualization with supervised and unsupervised machine learning. An interactive dashboard makes it possible to explore the results by country, continent, year, and indicator.
+The analysis covers **2017–2025**, subject to data availability, and combines exploratory data visualization with supervised and unsupervised machine learning.
+
+## 🌍 Explore the Interactive Dashboard
+
+As part of the preliminary exploratory analysis, we developed an **interactive dashboard** to explore the data in greater detail, particularly at the **individual-country level**.
+
+The dashboard provides interactive visualizations of geographic differences, trends over time, socioeconomic indicators, and food-group costs. Users can select and compare countries, continents, years, and indicators to investigate patterns beyond the main findings presented in the analysis.
+
+**To explore the dashboard:** run the notebook and open the generated HTML file in `outputs/02_eda/dashboard/`. The dashboard is generated locally and is not included in the repository's tracked outputs.
 
 ## Research questions
 
@@ -62,7 +70,7 @@ is_healthy_eating_a_luxury/
 │   ├── 03_preprocessing/          # Data quality and preprocessing reports
 │   ├── 04_unsupervised/           # PCA and clustering results
 │   └── 05_supervised/             # Model evaluation and interpretation
-├── scipts/                        # Python modules (folder name as used in the project)
+├── scripts/                        # Python modules
 │   ├── 01_data_cleaning.py
 │   ├── 02_data_integration.py
 │   ├── 03_eda_dashboard.py
@@ -75,7 +83,6 @@ is_healthy_eating_a_luxury/
 └── README.md
 ```
 
-The folder is intentionally named **`scipts/`** (not `scripts/`) to match the current notebook imports and project structure. If you rename it, update the notebook paths accordingly.
 
 ### What each module does
 
