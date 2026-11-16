@@ -6,7 +6,7 @@ This project explores whether a healthy diet is economically accessible across c
 
 The analysis covers **2017–2025**, subject to data availability, and combines exploratory data visualization with supervised and unsupervised machine learning.
 
-## 🌍 Explore the Interactive Dashboard
+## Explore the Interactive Dashboard
 
 As part of the preliminary exploratory analysis, we developed an **interactive dashboard** to explore the data in greater detail, particularly at the **individual-country level**.
 
@@ -56,7 +56,7 @@ The project uses two publicly available sources. **The original data files are i
 
 ```text
 is_healthy_eating_a_luxury/
-├── .venv/                          # Local Python environment (not required in the repository)
+├── .venv/                          # Local Python environment 
 ├── data/
 │   ├── FAOSTAT_data_en_11-3-2026.xlsx
 │   ├── world_bank/                # Original World Bank CSV files
@@ -79,6 +79,7 @@ is_healthy_eating_a_luxury/
 │   ├── 05_unsupervised.py
 │   └── 06_supervised.py
 ├── healthy_diet_analysis.ipynb    # Main executable notebook
+├── healthy_diet_analysis.pdf     # Presentation
 ├── requirements.txt
 └── README.md
 ```
