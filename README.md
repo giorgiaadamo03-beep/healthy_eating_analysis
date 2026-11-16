@@ -79,7 +79,7 @@ is_healthy_eating_a_luxury/
 │   ├── 05_unsupervised.py
 │   └── 06_supervised.py
 ├── healthy_diet_analysis.ipynb    # Main executable notebook
-├── healthy_diet_analysis.pdf     # Presentation
+├── healthy_eating_analysis.pdf     # Presentation
 ├── requirements.txt
 └── README.md
 ```
